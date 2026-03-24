@@ -6,16 +6,18 @@ import { COMPANY } from '@/lib/constants'
 export default function Hero() {
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center bg-dark">
+      {/* Background photo */}
+      <Image
+        src="/hero-bg.jpg"
+        alt=""
+        fill
+        className="object-cover"
+        priority
+      />
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-dark/80" />
       {/* Diagonal stripe pattern overlay */}
       <div className="absolute inset-0 diagonal-stripes" />
-      {/* Subtle radial gradient */}
-      <div
-        className="absolute inset-0 opacity-30"
-        style={{
-          background:
-            'radial-gradient(ellipse at 30% 50%, rgba(0,180,216,0.15) 0%, transparent 60%), radial-gradient(ellipse at 70% 50%, rgba(242,194,24,0.1) 0%, transparent 60%)',
-        }}
-      />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 text-center">
         <div className="flex justify-center mb-8">
@@ -35,7 +37,7 @@ export default function Hero() {
             TECHNICAL INC.
           </span>
         </h1>
-        <p className="font-display text-xl sm:text-2xl text-white mb-3 tracking-wide">
+        <p className="font-body text-xl sm:text-2xl text-white mb-3">
           Toronto&apos;s Most Trusted HVAC Experts
         </p>
         <p className="text-lg sm:text-xl text-gray-400 mb-4">

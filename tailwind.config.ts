@@ -27,7 +27,7 @@ const config: Config = {
         'gray-light': '#F5F7FA',
       },
       fontFamily: {
-        display: ['Eurostile', 'sans-serif'],
+        display: ['"Eurostile Extended"', 'sans-serif'],
         body: ['var(--font-montserrat)', 'sans-serif'],
       },
     },

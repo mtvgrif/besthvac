@@ -22,9 +22,9 @@ export default function Hero() {
           <Image
             src="/logo-icon-512.png"
             alt="Best Technical Inc."
-            width={100}
-            height={100}
-            className="h-24 w-24 lg:h-28 lg:w-28"
+            width={200}
+            height={200}
+            className="h-40 w-40 lg:h-52 lg:w-52"
           />
         </div>
         <h1 className="font-display leading-none mb-4">

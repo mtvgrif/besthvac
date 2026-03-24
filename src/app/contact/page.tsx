@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, Instagram } from 'lucide-react'
 import { COMPANY } from '@/lib/constants'
 import ContactForm from '@/components/ContactForm'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
@@ -80,6 +80,20 @@ export default function ContactPage() {
                         </p>
                       </div>
                     </div>
+                    <a
+                      href={COMPANY.instagramUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-3 text-gray-400 hover:text-gold transition-colors"
+                    >
+                      <Instagram className="w-5 h-5 text-cyan flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium text-white">
+                          {COMPANY.instagram}
+                        </p>
+                        <p className="text-sm">Follow us on Instagram</p>
+                      </div>
+                    </a>
                   </div>
                 </div>
 

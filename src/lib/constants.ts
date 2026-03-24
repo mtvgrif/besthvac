@@ -20,6 +20,8 @@ export const COMPANY = {
   tagline: 'Professional HVAC Services',
   subTagline: 'The Best Quality, Price & Time',
   credential: 'Licensed Gas Technician',
+  instagram: '@best_technical_inc',
+  instagramUrl: 'https://www.instagram.com/best_technical_inc',
   description:
     'Best Technical Inc. provides professional heating and cooling services for residential and commercial properties across the Greater Toronto Area. Licensed Gas Technician \u2014 trusted since 1998.',
 } as const

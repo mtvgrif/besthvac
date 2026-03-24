@@ -27,11 +27,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex justify-center mb-6">
             <Image
-              src="/logo-full.svg"
+              src="/logo-stacked-dark.png"
               alt="Best Technical Inc."
               width={280}
-              height={120}
-              className="h-24 w-auto"
+              height={280}
+              className="h-40 w-auto"
             />
           </div>
           <h1 className="font-heading font-bold text-3xl lg:text-5xl text-gold mb-4">

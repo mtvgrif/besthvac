@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, Mail, MapPin } from 'lucide-react'
+import { Phone, Mail, MapPin, Instagram } from 'lucide-react'
 import { COMPANY, NAV_LINKS, SERVICES, SERVICE_AREAS } from '@/lib/constants'
 
 export default function Footer() {
@@ -12,9 +12,9 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="/logo-full.svg"
+                src="/logo-horizontal-dark.png"
                 alt="Best Technical Inc."
-                width={200}
+                width={250}
                 height={80}
                 className="h-16 w-auto"
               />
@@ -39,6 +39,15 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-cyan flex-shrink-0 mt-0.5" />
                 Serving the Greater Toronto Area
               </p>
+              <a
+                href={COMPANY.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-gold transition-colors"
+              >
+                <Instagram className="w-4 h-4 text-cyan flex-shrink-0" />
+                {COMPANY.instagram}
+              </a>
             </div>
           </div>
 
@@ -99,18 +108,15 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {COMPANY.name}. All rights
             reserved. {COMPANY.credential}.
           </p>
-          <div className="flex gap-4">
-            {['Facebook', 'Instagram', 'Google'].map((social) => (
-              <a
-                key={social}
-                href="#"
-                className="hover:text-gold transition-colors"
-                aria-label={social}
-              >
-                {social}
-              </a>
-            ))}
-          </div>
+          <a
+            href={COMPANY.instagramUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan hover:text-gold transition-colors"
+            aria-label="Instagram"
+          >
+            <Instagram className="w-5 h-5" />
+          </a>
         </div>
       </div>
     </footer>

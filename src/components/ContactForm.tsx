@@ -179,28 +179,6 @@ export default function ContactForm() {
         </div>
       </div>
 
-      {/* Property Type */}
-      <div>
-        <label
-          htmlFor="property"
-          className="block text-sm font-medium text-gray-700 mb-1"
-        >
-          Property Type
-        </label>
-        <select
-          id="property"
-          name="property"
-          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition bg-white"
-          defaultValue=""
-        >
-          <option value="" disabled>
-            Residential or Commercial?
-          </option>
-          <option value="residential">Residential</option>
-          <option value="commercial">Commercial</option>
-        </select>
-      </div>
-
       {/* Message */}
       <div>
         <label

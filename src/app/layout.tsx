@@ -1,16 +1,9 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
 import { Montserrat } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { COMPANY } from '@/lib/constants'
 import './globals.css'
-
-const eurostile = localFont({
-  src: '../fonts/EurostileExtendedBlack.ttf',
-  variable: '--font-eurostile',
-  display: 'swap',
-})
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -43,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${eurostile.variable} ${montserrat.variable}`}>
+    <html lang="en" className={montserrat.variable}>
       <body className="font-body">
         <Header />
         <main className="pt-16 lg:pt-20">{children}</main>

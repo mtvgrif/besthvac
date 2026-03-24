@@ -7,7 +7,7 @@ import { COMPANY } from '@/lib/constants'
 import './globals.css'
 
 const eurostile = localFont({
-  src: '../../public/fonts/EurostileExtendedBlack.ttf',
+  src: '../fonts/EurostileExtendedBlack.ttf',
   variable: '--font-eurostile',
   display: 'swap',
 })

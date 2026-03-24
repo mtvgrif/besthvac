@@ -5,7 +5,7 @@ export default function CTABanner() {
   return (
     <section className="bg-gold py-12 lg:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="font-display font-bold text-2xl lg:text-3xl text-dark mb-4">
+        <h2 className="font-display text-2xl lg:text-3xl text-dark mb-4">
           Need Emergency HVAC Service?
         </h2>
         <a

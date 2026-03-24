@@ -27,8 +27,8 @@ const config: Config = {
         'gray-light': '#F5F7FA',
       },
       fontFamily: {
-        display: ['var(--font-bebas)', 'sans-serif'],
-        body: ['var(--font-inter)', 'sans-serif'],
+        display: ['var(--font-eurostile)', 'sans-serif'],
+        body: ['var(--font-montserrat)', 'sans-serif'],
       },
     },
   },

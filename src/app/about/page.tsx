@@ -34,7 +34,7 @@ export default function AboutPage() {
               className="h-40 w-auto"
             />
           </div>
-          <h1 className="font-display font-bold text-3xl lg:text-5xl text-gold mb-4">
+          <h1 className="font-display text-3xl lg:text-5xl text-gold mb-4">
             About Best Technical Inc.
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
@@ -48,7 +48,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll>
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="font-display font-bold text-3xl text-charcoal mb-6">
+              <h2 className="font-display text-3xl text-charcoal mb-6">
                 Our Story
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed text-left">
@@ -87,7 +87,7 @@ export default function AboutPage() {
       <section className="py-16 lg:py-24 bg-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll className="text-center mb-12">
-            <h2 className="font-display font-bold text-3xl text-gold mb-4">
+            <h2 className="font-display text-3xl text-gold mb-4">
               Meet Our Team
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
@@ -110,7 +110,7 @@ export default function AboutPage() {
       <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll className="text-center mb-12">
-            <h2 className="font-display font-bold text-3xl text-charcoal mb-4">
+            <h2 className="font-display text-3xl text-charcoal mb-4">
               Certifications &amp; Licenses
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -131,7 +131,7 @@ export default function AboutPage() {
                       i % 2 === 0 ? 'text-cyan' : 'text-gold'
                     }`}
                   />
-                  <p className="font-display font-semibold text-sm text-charcoal">
+                  <p className="font-display text-sm text-charcoal">
                     {cert}
                   </p>
                 </div>

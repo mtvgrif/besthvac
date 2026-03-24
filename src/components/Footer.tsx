@@ -53,7 +53,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-display font-semibold text-lg text-gold mb-4">
+            <h3 className="font-display text-lg text-gold mb-4">
               Quick Links
             </h3>
             <ul className="space-y-2 text-sm text-gray-400">
@@ -72,7 +72,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-display font-semibold text-lg text-gold mb-4">
+            <h3 className="font-display text-lg text-gold mb-4">
               Our Services
             </h3>
             <ul className="space-y-2 text-sm text-gray-400">
@@ -91,7 +91,7 @@ export default function Footer() {
 
           {/* Service Areas */}
           <div>
-            <h3 className="font-display font-semibold text-lg text-gold mb-4">
+            <h3 className="font-display text-lg text-gold mb-4">
               Service Areas
             </h3>
             <ul className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-400">

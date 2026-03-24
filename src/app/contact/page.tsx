@@ -15,7 +15,7 @@ export default function ContactPage() {
       {/* Page Header */}
       <section className="bg-dark py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-display font-bold text-3xl lg:text-5xl text-gold mb-4">
+          <h1 className="font-display text-3xl lg:text-5xl text-gold mb-4">
             Contact Us
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
@@ -32,7 +32,7 @@ export default function ContactPage() {
             {/* Form */}
             <AnimateOnScroll className="lg:col-span-2">
               <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 lg:p-8">
-                <h2 className="font-display font-bold text-2xl text-charcoal mb-6">
+                <h2 className="font-display text-2xl text-charcoal mb-6">
                   Get a Free Quote
                 </h2>
                 <ContactForm />
@@ -44,7 +44,7 @@ export default function ContactPage() {
               <div className="space-y-6">
                 {/* Contact Info */}
                 <div className="bg-dark rounded-2xl p-6">
-                  <h3 className="font-display font-semibold text-lg text-gold mb-4">
+                  <h3 className="font-display text-lg text-gold mb-4">
                     Contact Information
                   </h3>
                   <div className="space-y-4">
@@ -99,7 +99,7 @@ export default function ContactPage() {
 
                 {/* Business Hours */}
                 <div className="bg-dark rounded-2xl p-6">
-                  <h3 className="font-display font-semibold text-lg text-gold mb-4 flex items-center gap-2">
+                  <h3 className="font-display text-lg text-gold mb-4 flex items-center gap-2">
                     <Clock className="w-5 h-5 text-cyan" />
                     Business Hours
                   </h3>

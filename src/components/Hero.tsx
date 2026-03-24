@@ -28,14 +28,14 @@ export default function Hero() {
           />
         </div>
         <h1 className="font-display leading-none mb-4">
-          <span className="block text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gold">
+          <span className="block text-7xl sm:text-8xl lg:text-[10rem] xl:text-[12rem] text-gold tracking-wider">
             BEST
           </span>
-          <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-cyan mt-1">
+          <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-cyan tracking-wider mt-1">
             TECHNICAL INC.
           </span>
         </h1>
-        <p className="font-display text-xl sm:text-2xl text-white mb-3">
+        <p className="font-display text-xl sm:text-2xl text-white mb-3 tracking-wide">
           Toronto&apos;s Most Trusted HVAC Experts
         </p>
         <p className="text-lg sm:text-xl text-gray-400 mb-4">

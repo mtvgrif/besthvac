@@ -17,7 +17,7 @@ html {
   h4,
   h5,
   h6 {
-    @apply font-display uppercase;
+    @apply font-display uppercase tracking-wide;
   }
 }
 

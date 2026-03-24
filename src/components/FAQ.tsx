@@ -11,7 +11,7 @@ export default function FAQ() {
     <section className="py-16 lg:py-24 bg-gray-light">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="font-heading font-bold text-3xl lg:text-4xl text-primary mb-4">
+          <h2 className="font-heading font-bold text-3xl lg:text-4xl text-charcoal mb-4">
             Frequently Asked Questions
           </h2>
           <p className="text-gray-600">
@@ -24,7 +24,7 @@ export default function FAQ() {
           {FAQS.map((faq, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl border border-gray-100 overflow-hidden"
+              className="bg-white rounded-xl border border-gray-200 overflow-hidden"
             >
               <button
                 onClick={() =>
@@ -33,11 +33,11 @@ export default function FAQ() {
                 className="w-full flex items-center justify-between px-6 py-4 text-left"
                 aria-expanded={openIndex === index}
               >
-                <span className="font-medium text-primary pr-4">
+                <span className="font-medium text-charcoal pr-4">
                   {faq.question}
                 </span>
                 <ChevronDown
-                  className={`w-5 h-5 text-gray-400 flex-shrink-0 transition-transform duration-200 ${
+                  className={`w-5 h-5 text-gold flex-shrink-0 transition-transform duration-200 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                 />

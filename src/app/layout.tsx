@@ -24,10 +24,15 @@ export const metadata: Metadata = {
   },
   description: COMPANY.description,
   metadataBase: new URL(`https://${COMPANY.domain}`),
+  icons: {
+    icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_CA',
     siteName: COMPANY.name,
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
 }
 

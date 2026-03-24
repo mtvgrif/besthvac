@@ -9,16 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          DEFAULT: '#1B3A5C',
-          light: '#2d5a8c',
-          dark: '#132a42',
+        dark: {
+          DEFAULT: '#0A0A0A',
+          light: '#1A1A1A',
         },
-        accent: {
-          DEFAULT: '#E8732A',
-          light: '#f09050',
-          dark: '#c55e1e',
+        gold: {
+          DEFAULT: '#F2C218',
+          dark: '#D4A915',
+          light: '#F5D44A',
         },
+        cyan: {
+          DEFAULT: '#00B4D8',
+          dark: '#0096B4',
+          light: '#33C4E0',
+        },
+        charcoal: '#1A1A1A',
         'gray-light': '#F5F7FA',
       },
       fontFamily: {

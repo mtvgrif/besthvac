@@ -15,8 +15,8 @@ import CTABanner from '@/components/CTABanner'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services \u2014 Heating, Cooling, Duct Cleaning & More',
-  description: `Best HVAC offers comprehensive HVAC services in Toronto: furnace repair, AC installation, duct cleaning, water heaters, indoor air quality, and 24/7 emergency service. Call ${COMPANY.phone}.`,
+  title: 'HVAC Services | Furnace, AC, Duct Cleaning \u2014 Best Technical Inc.',
+  description: `Best Technical Inc. offers professional HVAC services in Toronto: furnace repair, AC installation, duct cleaning, water heaters, indoor air quality, and 24/7 emergency service. Licensed Gas Technician. Call ${COMPANY.phone}.`,
 }
 
 const iconMap: Record<string, LucideIcon> = {
@@ -32,14 +32,14 @@ export default function ServicesPage() {
   return (
     <>
       {/* Page Header */}
-      <section className="bg-gradient-to-br from-primary to-primary-light py-16 lg:py-24">
+      <section className="bg-dark py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-heading font-bold text-3xl lg:text-5xl text-white mb-4">
+          <h1 className="font-heading font-bold text-3xl lg:text-5xl text-gold mb-4">
             Our Services
           </h1>
-          <p className="text-blue-100 max-w-2xl mx-auto text-lg">
-            Comprehensive HVAC solutions for your home. From repairs to
-            installations, we&apos;ve got you covered.
+          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+            Professional heating and cooling solutions for residential and
+            commercial properties. Licensed Gas Technicians on every job.
           </p>
         </div>
       </section>
@@ -58,10 +58,10 @@ export default function ServicesPage() {
               <AnimateOnScroll>
                 <div className="max-w-4xl mx-auto">
                   <div className="flex items-center gap-4 mb-6">
-                    <div className="w-14 h-14 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-7 h-7 text-accent" />
+                    <div className="w-14 h-14 bg-cyan/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-7 h-7 text-cyan" />
                     </div>
-                    <h2 className="font-heading font-bold text-2xl lg:text-3xl text-primary">
+                    <h2 className="font-heading font-bold text-2xl lg:text-3xl text-charcoal">
                       {service.title}
                     </h2>
                   </div>
@@ -75,17 +75,17 @@ export default function ServicesPage() {
                       ))}
                     </div>
                     <div className="lg:col-span-2">
-                      <div className="bg-primary/5 rounded-xl p-6">
-                        <h3 className="font-heading font-semibold text-primary mb-4">
+                      <div className="bg-dark rounded-xl p-6">
+                        <h3 className="font-heading font-semibold text-gold mb-4">
                           What&apos;s Included
                         </h3>
                         <ul className="space-y-2">
                           {service.includes.map((item, i) => (
                             <li
                               key={i}
-                              className="flex items-start gap-2 text-sm text-gray-600"
+                              className="flex items-start gap-2 text-sm text-gray-300"
                             >
-                              <span className="text-accent mt-0.5 font-bold">
+                              <span className="text-cyan mt-0.5 font-bold">
                                 &#10003;
                               </span>
                               {item}
@@ -94,7 +94,7 @@ export default function ServicesPage() {
                         </ul>
                         <Link
                           href="/contact"
-                          className="inline-block bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-lg mt-6 transition-colors text-sm"
+                          className="inline-block bg-gold hover:bg-gold-dark text-dark font-semibold px-6 py-3 rounded-lg mt-6 transition-colors text-sm"
                         >
                           Request This Service
                         </Link>

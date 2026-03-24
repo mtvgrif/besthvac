@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&amp;family=Roboto+Condensed:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- Background (transparent) -->
+  
+  <!-- === SUN (behind snowflake) === -->
+  <g transform="translate(200, 175)">
+    <!-- Sun circle body -->
+    <circle cx="12" cy="12" r="38" fill="#F2C218"/>
+    
+    <!-- Sun rays - thick triangular rays radiating outward -->
+    <!-- Ray top-right -->
+    <polygon points="12,-42 20,-70 4,-70" fill="#F2C218"/>
+    <!-- Ray right -->
+    <polygon points="46,12 74,4 74,20" fill="#F2C218"/>
+    <!-- Ray bottom-right -->
+    <polygon points="42,42 62,58 50,66" fill="#F2C218"/>
+    <!-- Ray bottom -->
+    <polygon points="12,46 20,74 4,74" fill="#F2C218"/>
+    <!-- Ray bottom-left -->
+    <polygon points="-18,42 -38,58 -26,66" fill="#F2C218"/>
+    
+    <!-- More sun rays for fullness -->
+    <!-- Ray upper-right diagonal -->
+    <polygon points="38,-28 58,-48 48,-52" fill="#F2C218"/>
+    <!-- Ray lower-right diagonal -->  
+    <polygon points="44,32 68,42 62,52" fill="#F2C218"/>
+    
+    <!-- Rounded ray tips -->
+    <circle cx="12" cy="-65" r="8" fill="#F2C218"/>
+    <circle cx="70" cy="12" r="8" fill="#F2C218"/>
+    <circle cx="56" cy="62" r="8" fill="#F2C218"/>
+    <circle cx="12" cy="70" r="8" fill="#F2C218"/>
+    <circle cx="-32" cy="62" r="8" fill="#F2C218"/>
+    <circle cx="54" cy="-46" r="8" fill="#F2C218"/>
+    <circle cx="66" cy="46" r="8" fill="#F2C218"/>
+  </g>
+  
+  <!-- === SNOWFLAKE (in front of sun) === -->
+  <g transform="translate(188, 163)" fill="#00B4D8">
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="12" fill="#00B4D8"/>
+    
+    <!-- Main 6 arms of snowflake -->
+    <!-- Vertical top arm -->
+    <rect x="-4" y="-65" width="8" height="65" rx="2"/>
+    <!-- Vertical bottom arm -->
+    <rect x="-4" y="0" width="8" height="65" rx="2"/>
+    <!-- Upper-right arm -->
+    <rect x="-4" y="-65" width="8" height="65" rx="2" transform="rotate(60)"/>
+    <!-- Lower-left arm -->
+    <rect x="-4" y="0" width="8" height="65" rx="2" transform="rotate(60)"/>
+    <!-- Upper-left arm -->
+    <rect x="-4" y="-65" width="8" height="65" rx="2" transform="rotate(-60)"/>
+    <!-- Lower-right arm -->
+    <rect x="-4" y="0" width="8" height="65" rx="2" transform="rotate(-60)"/>
+    
+    <!-- Branch details on each arm -->
+    <!-- Top arm branches -->
+    <rect x="-3" y="-20" width="6" height="22" rx="1" transform="rotate(45, 0, -30)"/>
+    <rect x="-3" y="-20" width="6" height="22" rx="1" transform="rotate(-45, 0, -30)"/>
+    <rect x="-3" y="-15" width="6" height="18" rx="1" transform="rotate(45, 0, -50)"/>
+    <rect x="-3" y="-15" width="6" height="18" rx="1" transform="rotate(-45, 0, -50)"/>
+    
+    <!-- Bottom arm branches -->
+    <rect x="-3" y="-2" width="6" height="22" rx="1" transform="rotate(135, 0, 30)"/>
+    <rect x="-3" y="-2" width="6" height="22" rx="1" transform="rotate(-135, 0, 30)"/>
+    <rect x="-3" y="-2" width="6" height="18" rx="1" transform="rotate(135, 0, 50)"/>
+    <rect x="-3" y="-2" width="6" height="18" rx="1" transform="rotate(-135, 0, 50)"/>
+    
+    <!-- 60deg arm branches -->
+    <rect x="-3" y="-20" width="6" height="20" rx="1" transform="rotate(105, 0, -30) translate(0, 0)"/>
+    <rect x="-3" y="-20" width="6" height="20" rx="1" transform="rotate(15, 0, -30)"/>
+    
+    <!-- -60deg arm branches -->
+    <rect x="-3" y="-20" width="6" height="20" rx="1" transform="rotate(-105, 0, -30)"/>
+    <rect x="-3" y="-20" width="6" height="20" rx="1" transform="rotate(-15, 0, -30)"/>
+    
+    <!-- Diamond tips on each arm -->
+    <polygon points="0,-72 7,-65 0,-58 -7,-65" fill="#00B4D8"/>
+    <polygon points="0,72 7,65 0,58 -7,65" fill="#00B4D8"/>
+    <polygon points="62.4,36 55.4,29 48.4,36 55.4,43" fill="#00B4D8" transform="rotate(0)"/>
+    <polygon points="-62.4,36 -55.4,29 -48.4,36 -55.4,43" fill="#00B4D8"/>
+    <polygon points="62.4,-36 55.4,-29 48.4,-36 55.4,-43" fill="#00B4D8"/>
+    <polygon points="-62.4,-36 -55.4,-29 -48.4,-36 -55.4,-43" fill="#00B4D8"/>
+  </g>
+  
+  <!-- === TEXT === -->
+  <!-- "BEST" -->
+  <text x="200" y="310" font-family="'Oswald', 'Arial Black', sans-serif" font-weight="700" font-size="80" fill="white" text-anchor="middle" letter-spacing="6">BEST</text>
+  
+  <!-- "TECHNICAL INC." -->
+  <text x="200" y="355" font-family="'Roboto Condensed', 'Arial Narrow', sans-serif" font-weight="700" font-size="34" fill="white" text-anchor="middle" letter-spacing="4">TECHNICAL INC.</text>
+  
+  <!-- Thin divider line -->
+  <line x1="110" y1="370" x2="290" y2="370" stroke="#F2C218" stroke-width="1.5"/>
+  
+  <!-- "PROFESSIONAL HVAC SERVICES" -->
+  <text x="200" y="395" font-family="'Roboto Condensed', 'Arial Narrow', sans-serif" font-weight="400" font-size="16" fill="white" text-anchor="middle" letter-spacing="3">PROFESSIONAL HVAC SERVICES</text>
+</svg>

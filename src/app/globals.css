@@ -54,3 +54,37 @@ html {
 .mobile-nav-enter {
   animation: slideIn 0.3s ease-out forwards;
 }
+
+/* Diagonal accent divider between sections */
+.diagonal-divider {
+  position: relative;
+}
+
+.diagonal-divider::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(
+    to bottom right,
+    transparent 48%,
+    #F2C218 48%,
+    #F2C218 52%,
+    transparent 52%
+  );
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Subtle diagonal stripe pattern */
+.diagonal-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 20px,
+    rgba(242, 194, 24, 0.05) 20px,
+    rgba(242, 194, 24, 0.05) 40px
+  );
+}

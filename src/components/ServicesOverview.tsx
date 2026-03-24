@@ -4,15 +4,15 @@ import AnimateOnScroll from './AnimateOnScroll'
 
 export default function ServicesOverview() {
   return (
-    <section className="py-16 lg:py-24 bg-gray-light">
+    <section className="py-16 lg:py-24 bg-dark diagonal-divider">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateOnScroll className="text-center mb-12">
-          <h2 className="font-heading font-bold text-3xl lg:text-4xl text-primary mb-4">
+          <h2 className="font-heading font-bold text-3xl lg:text-4xl text-gold mb-4">
             Our Services
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            From emergency repairs to new installations, we provide comprehensive
-            HVAC services to keep your home comfortable year-round.
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            Comprehensive heating and cooling services for residential and
+            commercial properties across the GTA.
           </p>
         </AnimateOnScroll>
 

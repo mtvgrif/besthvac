@@ -57,7 +57,7 @@ export default function ContactForm() {
         </p>
         <button
           onClick={() => setSubmitted(false)}
-          className="mt-4 text-accent font-medium hover:underline"
+          className="mt-4 text-gold-dark font-medium hover:underline"
         >
           Send another message
         </button>
@@ -79,7 +79,7 @@ export default function ContactForm() {
           type="text"
           id="name"
           name="name"
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-accent/50 focus:border-accent outline-none transition ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition ${
             errors.name ? 'border-red-400' : 'border-gray-300'
           }`}
           placeholder="John Smith"
@@ -102,7 +102,7 @@ export default function ContactForm() {
             type="email"
             id="email"
             name="email"
-            className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-accent/50 focus:border-accent outline-none transition ${
+            className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition ${
               errors.email ? 'border-red-400' : 'border-gray-300'
             }`}
             placeholder="john@example.com"
@@ -122,10 +122,10 @@ export default function ContactForm() {
             type="tel"
             id="phone"
             name="phone"
-            className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-accent/50 focus:border-accent outline-none transition ${
+            className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition ${
               errors.phone ? 'border-red-400' : 'border-gray-300'
             }`}
-            placeholder="(416) 555-1234"
+            placeholder="(647) 555-1234"
           />
           {errors.phone && (
             <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
@@ -145,7 +145,7 @@ export default function ContactForm() {
           <select
             id="service"
             name="service"
-            className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-accent/50 focus:border-accent outline-none transition bg-white ${
+            className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition bg-white ${
               errors.service ? 'border-red-400' : 'border-gray-300'
             }`}
             defaultValue=""
@@ -174,9 +174,31 @@ export default function ContactForm() {
             type="date"
             id="date"
             name="date"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent/50 focus:border-accent outline-none transition"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition"
           />
         </div>
+      </div>
+
+      {/* Property Type */}
+      <div>
+        <label
+          htmlFor="property"
+          className="block text-sm font-medium text-gray-700 mb-1"
+        >
+          Property Type
+        </label>
+        <select
+          id="property"
+          name="property"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition bg-white"
+          defaultValue=""
+        >
+          <option value="" disabled>
+            Residential or Commercial?
+          </option>
+          <option value="residential">Residential</option>
+          <option value="commercial">Commercial</option>
+        </select>
       </div>
 
       {/* Message */}
@@ -191,7 +213,7 @@ export default function ContactForm() {
           id="message"
           name="message"
           rows={4}
-          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-accent/50 focus:border-accent outline-none transition resize-vertical ${
+          className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-gold/50 focus:border-gold outline-none transition resize-vertical ${
             errors.message ? 'border-red-400' : 'border-gray-300'
           }`}
           placeholder="Tell us about your HVAC needs..."
@@ -204,7 +226,7 @@ export default function ContactForm() {
       {/* Submit */}
       <button
         type="submit"
-        className="w-full bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-4 rounded-lg transition-colors flex items-center justify-center gap-2"
+        className="w-full bg-gold hover:bg-gold-dark text-dark font-semibold px-6 py-4 rounded-lg transition-colors flex items-center justify-center gap-2"
       >
         <Send className="w-5 h-5" />
         Send Message

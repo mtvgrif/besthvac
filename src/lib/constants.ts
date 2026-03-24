@@ -1,27 +1,27 @@
 export const COMPANY = {
-  name: 'Best HVAC',
+  name: 'Best Technical Inc.',
+  shortName: 'BEST',
   domain: 'besthvac.ca',
   phone: '(647) 680-9800',
   phoneHref: 'tel:+16476809800',
   email: 'info@besthvac.ca',
   address: {
-    street: '123 King St W',
     city: 'Toronto',
     province: 'ON',
-    postal: 'M5H 1A1',
-    full: '123 King St W, Toronto, ON M5H 1A1',
+    full: 'Serving the Greater Toronto Area',
   },
   hours: [
-    { days: 'Monday - Friday', time: '7:00 AM - 8:00 PM' },
-    { days: 'Saturday', time: '8:00 AM - 5:00 PM' },
+    { days: 'Mon \u2013 Fri', time: '7:00 AM \u2013 8:00 PM' },
+    { days: 'Saturday', time: '8:00 AM \u2013 5:00 PM' },
     { days: 'Sunday', time: 'Emergency Only' },
   ],
   founded: 1998,
   yearsExperience: 25,
-  tagline: "Toronto's Most Trusted HVAC Experts",
-  subTagline: '24/7 Emergency Service \u2022 Licensed & Insured \u2022 Free Estimates',
+  tagline: 'Professional HVAC Services',
+  subTagline: 'The Best Quality, Price & Time',
+  credential: 'Licensed Gas Technician',
   description:
-    'Best HVAC provides expert heating, cooling, and ventilation services across the Greater Toronto Area. Licensed, insured, and trusted since 1998.',
+    'Best Technical Inc. provides professional heating and cooling services for residential and commercial properties across the Greater Toronto Area. Licensed Gas Technician \u2014 trusted since 1998.',
 } as const
 
 export const NAV_LINKS = [
@@ -37,18 +37,18 @@ export const SERVICES = [
     icon: 'Flame',
     title: 'Furnace Repair & Installation',
     shortDescription:
-      'Keep your home warm with expert furnace services. From emergency repairs to new installations, we handle it all.',
+      'Gas furnace diagnostics, repair, replacement, and high-efficiency upgrades for residential and commercial properties.',
     description: [
-      "Your furnace is the heart of your home\u2019s heating system, and when it breaks down, you need fast, reliable service. Our certified technicians have the experience to diagnose and repair all makes and models of furnaces, ensuring your home stays warm and comfortable throughout Toronto\u2019s harsh winters.",
-      'Whether you need a simple repair, a complete furnace replacement, or a brand-new installation, we provide honest assessments and transparent pricing. We\u2019ll help you choose the most energy-efficient option for your home and budget.',
-      'All our furnace installations come with a comprehensive warranty and our 100% satisfaction guarantee. We also offer annual maintenance plans to keep your furnace running at peak efficiency and prevent costly breakdowns.',
+      "Your furnace is the heart of your property\u2019s heating system. When it breaks down, you need a Licensed Gas Technician on-site fast. Our certified team diagnoses and repairs all makes and models of gas furnaces, keeping your home or commercial space warm throughout Toronto\u2019s harsh winters.",
+      'Whether you need a straightforward repair, a complete furnace replacement, or a brand-new installation for a residential or commercial build, we provide honest assessments and transparent pricing. We\u2019ll help you choose the most energy-efficient option for your property and budget.',
+      'All our furnace installations come with a comprehensive warranty and our 100% satisfaction guarantee. We also offer annual maintenance plans to keep your system running at peak efficiency and prevent costly breakdowns.',
     ],
     includes: [
       'Emergency furnace repair (24/7)',
       'High-efficiency furnace installation',
+      'Commercial heating systems',
       'Annual maintenance & tune-ups',
       'Thermostat installation & calibration',
-      'Heat exchanger inspection',
       'Carbon monoxide testing',
     ],
   },
@@ -57,38 +57,38 @@ export const SERVICES = [
     icon: 'Snowflake',
     title: 'AC Repair & Installation',
     shortDescription:
-      'Stay cool all summer with our professional air conditioning services and energy-efficient installations.',
+      'Central air, ductless mini-splits, and seasonal tune-ups for homes and businesses. Licensed Gas Technicians on every job.',
     description: [
-      "When Toronto\u2019s summer heat hits, the last thing you want is a broken air conditioner. Our expert technicians provide fast, reliable AC repair services to get your cooling system back up and running quickly. We service all major brands and models.",
-      "If it\u2019s time for a new air conditioning system, we\u2019ll help you select the perfect unit for your home\u2019s size and your budget. Our installations are done right the first time, ensuring maximum efficiency and comfort for years to come.",
-      'We also offer preventative maintenance plans to keep your AC running smoothly all season long. Regular maintenance not only extends the life of your system but also keeps your energy bills low.',
+      "When Toronto\u2019s summer heat hits, you need reliable cooling for your home or business. Our Licensed Gas Technicians provide fast, reliable AC repair services to get your cooling system back up and running quickly. We service all major brands and models across residential and commercial properties.",
+      "Planning a new installation? We\u2019ll help you select the perfect unit for your property\u2019s size and your budget. From single-family homes to multi-unit commercial buildings, our installations are done right the first time.",
+      'We also offer preventative maintenance plans to keep your AC running smoothly all season long. Regular maintenance extends system life and keeps energy bills low \u2014 critical for both homeowners and business operators.',
     ],
     includes: [
       'Central air conditioning repair',
       'New AC system installation',
+      'Commercial cooling systems',
       'Ductless mini-split systems',
       'Seasonal tune-ups & maintenance',
       'Refrigerant recharge & leak repair',
-      'Smart thermostat integration',
     ],
   },
   {
     id: 'duct-cleaning',
     icon: 'Wind',
-    title: 'Duct Cleaning',
+    title: 'Duct Cleaning & Installation',
     shortDescription:
-      'Improve air quality and system efficiency with professional duct cleaning services.',
+      'Full ductwork cleaning, new duct installation, sealing, and insulation for residential and commercial properties.',
     description: [
-      "Over time, your home\u2019s ductwork accumulates dust, allergens, pet dander, and other contaminants that circulate through your living spaces every time your HVAC system runs. Professional duct cleaning removes these pollutants, improving your indoor air quality significantly.",
-      'Our thorough duct cleaning process uses industrial-grade equipment to clean every inch of your ductwork. We also inspect for leaks, damage, and insulation issues that could be costing you money on your energy bills.',
-      'The Canadian Air Quality Association recommends duct cleaning every 3\u20135 years, or more frequently if you have pets, allergies, or have recently completed renovations. Let us help you breathe easier in your own home.',
+      "Over time, ductwork accumulates dust, allergens, pet dander, and other contaminants that circulate through your living or working spaces every time your HVAC system runs. Professional duct cleaning removes these pollutants, significantly improving indoor air quality.",
+      'Our thorough cleaning process uses industrial-grade equipment to clean every inch of your ductwork \u2014 whether it\u2019s a residential home or a commercial building. We also install new ductwork, seal leaks, and add insulation to maximize efficiency.',
+      'For commercial properties, clean ductwork is essential for meeting health and safety standards. For homes, it means healthier air for your family. We recommend cleaning every 3\u20135 years, or more frequently for properties with high occupancy or recent renovations.',
     ],
     includes: [
       'Complete duct system cleaning',
+      'New ductwork installation',
+      'Commercial ductwork services',
+      'Duct sealing & insulation',
       'Dryer vent cleaning',
-      'Return & supply vent cleaning',
-      'Ductwork inspection & sealing',
-      'Filter replacement',
       'Before & after air quality testing',
     ],
   },
@@ -97,18 +97,18 @@ export const SERVICES = [
     icon: 'Droplets',
     title: 'Water Heater Service',
     shortDescription:
-      'From tankless to traditional, we install and repair all types of water heaters.',
+      'Tank and tankless water heater installation, repair, and maintenance for residential and commercial properties.',
     description: [
-      "A reliable water heater is essential for everyday comfort. Whether you\u2019re dealing with a lack of hot water, strange noises, or leaks, our technicians can quickly diagnose and repair the issue. We service both traditional tank and modern tankless water heaters.",
-      "Considering an upgrade? Tankless water heaters offer endless hot water and significant energy savings. We\u2019ll help you evaluate the best option for your household\u2019s hot water needs and provide a professional installation.",
-      'Regular maintenance extends the life of your water heater and maintains its efficiency. Our maintenance service includes flushing the tank, checking the anode rod, testing safety valves, and inspecting all connections.',
+      "Reliable hot water is essential for any property. Whether you\u2019re dealing with a lack of hot water, strange noises, or leaks, our Licensed Gas Technicians can quickly diagnose and repair the issue. We service both traditional tank and modern tankless water heaters.",
+      "For commercial properties with high hot water demands, we design and install systems that meet your capacity needs. For residential upgrades, tankless water heaters offer endless hot water and significant energy savings.",
+      'Regular maintenance extends the life of your water heater and maintains efficiency. Our service includes flushing the tank, checking the anode rod, testing safety valves, and inspecting all gas and water connections.',
     ],
     includes: [
       'Tank water heater repair & replacement',
       'Tankless water heater installation',
+      'Commercial water heating systems',
       'Annual maintenance & flushing',
-      'Temperature & pressure valve testing',
-      'Energy efficiency upgrades',
+      'Gas line inspection & testing',
       'Same-day emergency service',
     ],
   },
@@ -117,19 +117,19 @@ export const SERVICES = [
     icon: 'Leaf',
     title: 'Indoor Air Quality',
     shortDescription:
-      'Breathe cleaner, healthier air with our comprehensive indoor air quality solutions.',
+      'HRV/ERV systems, humidifiers, air filtration, and UV purification for healthier homes and workplaces.',
     description: [
-      "Indoor air can be up to five times more polluted than outdoor air, according to the EPA. With Canadians spending up to 90% of their time indoors, ensuring clean air in your home is essential for your family\u2019s health and well-being.",
-      "We offer a complete range of indoor air quality solutions, from air purifiers and UV germicidal lights to whole-home humidifiers and dehumidifiers. Our experts will assess your home\u2019s specific needs and recommend the right combination of products.",
-      'Our IAQ solutions work with your existing HVAC system to filter out allergens, bacteria, viruses, and other airborne contaminants. The result is cleaner, fresher air throughout your entire home.',
+      "Indoor air can be up to five times more polluted than outdoor air. With Canadians spending up to 90% of their time indoors, clean air in your home or workplace is essential for health and well-being.",
+      "We offer a complete range of indoor air quality solutions for both residential and commercial properties \u2014 from HRV/ERV ventilation systems and whole-home humidifiers to HEPA filtration and UV air purification. Our team assesses your property\u2019s specific needs and recommends the right solution.",
+      'For commercial properties, proper indoor air quality is critical for employee health, productivity, and regulatory compliance. For homes, it means cleaner, fresher air for your family.',
     ],
     includes: [
       'Air quality assessment & testing',
-      'HEPA air purifier installation',
-      'UV germicidal light systems',
-      'Whole-home humidifiers & dehumidifiers',
-      'ERV/HRV ventilation systems',
-      'MERV-rated filter upgrades',
+      'HRV/ERV ventilation systems',
+      'Whole-home humidifiers',
+      'HEPA air filtration',
+      'UV air purification',
+      'Commercial IAQ compliance',
     ],
   },
   {
@@ -137,19 +137,19 @@ export const SERVICES = [
     icon: 'AlertTriangle',
     title: '24/7 Emergency Repairs',
     shortDescription:
-      'HVAC emergency? We offer round-the-clock emergency service across the GTA.',
+      'After-hours emergency HVAC service with same-day response across the GTA. Licensed Gas Technicians on call.',
     description: [
-      "HVAC emergencies don\u2019t wait for business hours, and neither do we. Our emergency repair team is available 24 hours a day, 7 days a week, 365 days a year. When your heating or cooling system fails unexpectedly, one call is all it takes.",
-      'We keep our service vehicles fully stocked with common parts and equipment so we can resolve most emergencies in a single visit. Our average response time across the GTA is under 60 minutes, because we know that when you\u2019re uncomfortable, every minute counts.',
-      "There\u2019s never an extra charge for after-hours diagnostics \u2014 you\u2019ll get the same transparent, upfront pricing no matter when you call. Your comfort and safety are our top priorities.",
+      "HVAC emergencies don\u2019t wait for business hours, and neither do we. Our Licensed Gas Technicians are available 24/7, 365 days a year. When your heating or cooling system fails unexpectedly \u2014 whether at home or at your business \u2014 one call is all it takes.",
+      'We keep our service vehicles fully stocked with common parts and equipment so we can resolve most emergencies in a single visit. In most cases we can have a licensed technician at your door within 2\u20134 hours.',
+      "There\u2019s never an extra charge for after-hours diagnostics. You get the same transparent, upfront pricing no matter when you call. Your comfort and safety are our top priorities \u2014 residential or commercial.",
     ],
     includes: [
       '24/7/365 availability',
-      'Under 60-minute average response time',
+      '2\u20134 hour average response time',
       'No after-hours diagnostic fees',
-      'Fully stocked service vehicles',
-      'All major HVAC brands serviced',
-      'Temporary heating/cooling solutions available',
+      'Residential & commercial service',
+      'Licensed Gas Technicians on every call',
+      'Temporary heating/cooling solutions',
     ],
   },
 ] as const
@@ -159,13 +159,13 @@ export const WHY_CHOOSE_US = [
     icon: 'Award',
     title: '25+ Years Experience',
     description:
-      'Proudly serving the Greater Toronto Area since 1998 with thousands of satisfied customers.',
+      'Proudly serving residential and commercial properties across the GTA since 1998.',
   },
   {
     icon: 'ShieldCheck',
-    title: 'Licensed & Insured',
+    title: 'Licensed Gas Technician',
     description:
-      'Fully licensed by TSSA and insured for your complete peace of mind and protection.',
+      'All technicians are licensed gas fitters (G2/G3) regulated by TSSA. Fully insured.',
   },
   {
     icon: 'Clock',
@@ -175,100 +175,93 @@ export const WHY_CHOOSE_US = [
   },
   {
     icon: 'ThumbsUp',
-    title: '100% Satisfaction',
+    title: 'Best Quality & Price',
     description:
-      "We stand behind our work with a satisfaction guarantee. If you\u2019re not happy, we\u2019ll make it right.",
+      'The best quality, price, and time \u2014 that\u2019s our guarantee on every job we take.',
   },
 ] as const
 
 export const TESTIMONIALS = [
   {
-    name: 'Sarah Mitchell',
+    name: 'Mark R.',
     neighborhood: 'Scarborough',
     rating: 5,
-    text: "Our furnace died in the middle of a January cold snap. Best HVAC had a technician at our door within an hour and had us back up and running the same evening. Incredible service and very fair pricing. We won\u2019t call anyone else!",
+    text: 'Called on a Sunday when our furnace died in January. Best Technical had someone here within 2 hours. Lifesavers.',
   },
   {
-    name: 'David Chen',
+    name: 'Priya S.',
     neighborhood: 'North York',
     rating: 5,
-    text: "We had Best HVAC install a new central air system last summer. The team was professional, clean, and finished ahead of schedule. They even helped us choose a more efficient unit that\u2019s saving us money on our bills. Highly recommend!",
+    text: 'Professional crew, showed up on time, cleaned up after themselves. New AC unit works perfectly. Fair price too.',
   },
   {
-    name: 'Maria Rodriguez',
-    neighborhood: 'Etobicoke',
+    name: 'David & Lisa T.',
+    neighborhood: 'Brampton',
     rating: 5,
-    text: "I\u2019ve been using Best HVAC for annual maintenance for three years now. They\u2019re always on time, thorough, and honest. Last visit they found a small issue and fixed it on the spot before it became a big problem. That\u2019s the kind of service you can trust.",
+    text: "We\u2019ve used Best Technical for our rental properties for years. Always reliable, always honest. Wouldn\u2019t call anyone else.",
   },
 ] as const
 
 export const SERVICE_AREAS = [
   'Toronto',
-  'North York',
   'Scarborough',
+  'North York',
   'Etobicoke',
   'Mississauga',
   'Brampton',
+  'Markham',
   'Vaughan',
   'Richmond Hill',
-  'Markham',
-  'Pickering',
-  'Ajax',
-  'Whitby',
-  'Oakville',
-  'Burlington',
-  'Milton',
-  'Newmarket',
 ] as const
 
 export const TEAM = [
   {
-    name: 'Robert Thompson',
-    role: 'Founder & Lead Technician',
-    bio: 'With over 30 years of HVAC experience, Rob founded Best HVAC with a simple mission: provide honest, reliable service at fair prices.',
+    name: 'The Founder',
+    role: 'Owner & Licensed Gas Technician',
+    bio: 'A hands-on technician who leads every major installation personally. From wiring furnaces to running ductwork on construction sites, he built Best Technical from the ground up.',
   },
   {
-    name: 'Jennifer Park',
-    role: 'Operations Manager',
-    bio: 'Jennifer ensures every job runs smoothly from your first call to project completion. She leads our customer service team with dedication.',
+    name: 'Service Team Lead',
+    role: 'Senior HVAC Technician',
+    bio: 'TSSA-certified with years of field experience across residential and commercial projects. Specializes in high-efficiency systems and complex installations.',
   },
   {
-    name: 'Michael Santos',
-    role: 'Senior Service Technician',
-    bio: 'TSSA-certified with specializations in high-efficiency systems and indoor air quality. Michael has been with Best HVAC for 12 years.',
+    name: 'Operations Coordinator',
+    role: 'Scheduling & Customer Relations',
+    bio: 'Ensures every job runs smoothly from your first call to project completion. Coordinates our residential and commercial service teams across the GTA.',
   },
 ] as const
 
 export const FAQS = [
   {
-    question: 'How often should I have my HVAC system serviced?',
+    question: 'How quickly can you respond to an emergency?',
     answer:
-      'We recommend servicing your HVAC system at least twice a year \u2014 once in spring for your air conditioning and once in fall for your furnace. Regular maintenance prevents breakdowns, improves efficiency, and extends the life of your equipment. Our maintenance plans make it easy and affordable to stay on schedule.',
+      'We offer 24/7 emergency service across the GTA. In most cases we can have a licensed technician at your door within 2\u20134 hours.',
   },
   {
-    question: 'How do I know if I need a new furnace or just a repair?',
+    question: 'Are you licensed and insured?',
     answer:
-      'Generally, if your furnace is over 15\u201320 years old, requires frequent repairs, or your energy bills are steadily increasing, it may be more cost-effective to replace it. However, many issues can be resolved with a simple repair. Our technicians will give you an honest assessment and help you weigh the costs of repair vs. replacement.',
+      'Yes. All our technicians are licensed gas fitters (G2/G3) regulated by TSSA (Technical Standards & Safety Authority). We carry full liability insurance.',
   },
   {
-    question: 'What size AC unit do I need for my home?',
+    question: 'Do you service both residential and commercial?',
     answer:
-      "The right AC size depends on several factors including your home\u2019s square footage, insulation, number of windows, and sun exposure. An oversized unit wastes energy and creates humidity problems, while an undersized unit can\u2019t keep up. We perform a detailed load calculation to recommend the perfect size for your home.",
+      'Absolutely. From single-family homes to commercial buildings, we handle heating and cooling systems of all sizes.',
   },
   {
-    question: 'Do you offer financing for new HVAC installations?',
+    question: 'Do you offer free estimates?',
     answer:
-      'Yes! We understand that a new HVAC system is a significant investment. We offer flexible financing options with competitive rates to help make your new system affordable. Ask us about our current financing promotions when you schedule your free estimate.',
+      'Yes, we provide free on-site estimates for installations and major repairs. Call us at (647) 680-9800 to book.',
   },
   {
-    question: 'How can I improve my indoor air quality?',
+    question: 'What brands do you service?',
     answer:
-      'There are several effective ways to improve your indoor air quality: upgrade to a higher-rated MERV filter, install a whole-home air purifier or UV germicidal light, add a humidifier or dehumidifier as needed, and have your ducts professionally cleaned. We offer free IAQ assessments to identify the best solutions for your home.',
+      'We service all major brands including Lennox, Carrier, Trane, Goodman, Daikin, Rheem, and more.',
   },
   {
     question: 'What areas do you serve?',
     answer:
-      "We proudly serve the entire Greater Toronto Area including Toronto, North York, Scarborough, Etobicoke, Mississauga, Brampton, Vaughan, Richmond Hill, Markham, Pickering, Ajax, Whitby, Oakville, Burlington, Milton, and Newmarket. If you\u2019re not sure if we service your area, give us a call!",
+      'We serve the entire Greater Toronto Area including Toronto, Scarborough, North York, Etobicoke, Mississauga, Brampton, Markham, Vaughan, and Richmond Hill.',
   },
 ] as const
 
@@ -283,18 +276,18 @@ export const PROCESS_STEPS = [
     step: 2,
     title: 'Free Estimate',
     description:
-      'Our technician visits your home, assesses the situation, and provides a transparent, no-obligation quote.',
+      'Our Licensed Gas Technician visits your property, assesses the situation, and provides a transparent, no-obligation quote.',
   },
   {
     step: 3,
     title: 'Expert Service',
     description:
-      'Our licensed technicians complete the work efficiently and professionally, respecting your home and time.',
+      'Our licensed technicians complete the work efficiently and professionally \u2014 residential or commercial.',
   },
   {
     step: 4,
     title: 'Satisfaction Guaranteed',
     description:
-      "We follow up to make sure everything is working perfectly. If you\u2019re not satisfied, we make it right.",
+      'We follow up to make sure everything is working perfectly. The best quality, price, and time \u2014 guaranteed.',
   },
 ] as const

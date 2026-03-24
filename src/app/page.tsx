@@ -8,8 +8,8 @@ import CTABanner from '@/components/CTABanner'
 import { COMPANY } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: `${COMPANY.name} | Toronto HVAC Services \u2014 Heating, Cooling & Repairs`,
-  description: `${COMPANY.description} Call ${COMPANY.phone} for 24/7 emergency service.`,
+  title: 'Best Technical Inc. | Toronto HVAC \u2014 Heating & Cooling Experts',
+  description: `Licensed gas technicians serving the GTA. 24/7 emergency furnace & AC repair, installation, and maintenance. Residential & commercial. Call ${COMPANY.phone} for a free estimate.`,
 }
 
 export default function HomePage() {
@@ -37,10 +37,8 @@ export default function HomePage() {
             email: COMPANY.email,
             address: {
               '@type': 'PostalAddress',
-              streetAddress: COMPANY.address.street,
-              addressLocality: COMPANY.address.city,
-              addressRegion: COMPANY.address.province,
-              postalCode: COMPANY.address.postal,
+              addressLocality: 'Toronto',
+              addressRegion: 'ON',
               addressCountry: 'CA',
             },
             geo: {
@@ -78,11 +76,7 @@ export default function HomePage() {
               geoRadius: '50000',
             },
             priceRange: '$$',
-            aggregateRating: {
-              '@type': 'AggregateRating',
-              ratingValue: '4.9',
-              reviewCount: '312',
-            },
+            image: `https://${COMPANY.domain}/og-image.png`,
           }),
         }}
       />

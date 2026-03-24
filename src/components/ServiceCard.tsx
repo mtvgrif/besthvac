@@ -34,17 +34,17 @@ export default function ServiceCard({
   const Icon = iconMap[icon] || Flame
 
   return (
-    <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow border border-gray-100 group h-full flex flex-col">
-      <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent/10 transition-colors">
-        <Icon className="w-7 h-7 text-primary group-hover:text-accent transition-colors" />
+    <div className="bg-dark-light rounded-xl p-6 border border-white/10 hover:border-gold/40 group h-full flex flex-col transition-colors">
+      <div className="w-14 h-14 bg-cyan/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-gold/10 transition-colors">
+        <Icon className="w-7 h-7 text-cyan group-hover:text-gold transition-colors" />
       </div>
-      <h3 className="font-heading font-semibold text-lg text-primary mb-2">
+      <h3 className="font-heading font-semibold text-lg text-white mb-2">
         {title}
       </h3>
-      <p className="text-gray-600 text-sm mb-4 flex-grow">{description}</p>
+      <p className="text-gray-400 text-sm mb-4 flex-grow">{description}</p>
       <Link
         href={`/services#${id}`}
-        className="text-accent font-medium text-sm hover:text-accent-dark transition-colors"
+        className="text-gold font-medium text-sm hover:text-gold-light transition-colors"
       >
         Learn More &rarr;
       </Link>

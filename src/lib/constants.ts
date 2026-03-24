@@ -1,8 +1,8 @@
 export const COMPANY = {
   name: 'Best HVAC',
   domain: 'besthvac.ca',
-  phone: '416-555-HVAC',
-  phoneHref: 'tel:+14165554822',
+  phone: '(647) 680-9800',
+  phoneHref: 'tel:+16476809800',
   email: 'info@besthvac.ca',
   address: {
     street: '123 King St W',

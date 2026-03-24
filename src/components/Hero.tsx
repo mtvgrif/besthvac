@@ -6,15 +6,10 @@ import { COMPANY } from '@/lib/constants'
 export default function Hero() {
   return (
     <section className="relative h-[100svh] max-h-[900px] min-h-[600px] flex items-center bg-dark overflow-hidden">
-      {/* Background photo */}
-      <Image
-        src="/hero-bg.jpg"
-        alt=""
-        fill
-        className="object-cover object-center"
-        sizes="100vw"
-        style={{ objectPosition: 'center 40%' }}
-        priority
+      {/* Background photo — fixed size, no rescaling */}
+      <div
+        className="absolute inset-0 bg-cover bg-fixed bg-center"
+        style={{ backgroundImage: "url('/hero-bg.jpg')", backgroundPosition: 'center 40%' }}
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-dark/80" />

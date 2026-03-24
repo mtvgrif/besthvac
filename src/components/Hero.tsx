@@ -5,19 +5,21 @@ import { COMPANY } from '@/lib/constants'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center bg-dark">
+    <section className="relative h-[100svh] max-h-[900px] min-h-[600px] flex items-center bg-dark overflow-hidden">
       {/* Background photo */}
       <Image
         src="/hero-bg.jpg"
         alt=""
         fill
-        className="object-cover"
+        className="object-cover object-center"
+        sizes="100vw"
+        style={{ objectPosition: 'center 40%' }}
         priority
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-dark/80" />
       {/* Diagonal stripe pattern overlay */}
-      <div className="absolute inset-0 diagonal-stripes" />
+      <div className="absolute inset-0 diagonal-stripes opacity-30" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 text-center">
         <div className="flex justify-center mb-8">

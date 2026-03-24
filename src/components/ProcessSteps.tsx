@@ -15,7 +15,7 @@ export default function ProcessSteps() {
     <section className="py-16 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateOnScroll className="text-center mb-12">
-          <h2 className="font-heading font-bold text-3xl lg:text-4xl text-charcoal mb-4">
+          <h2 className="font-display font-bold text-3xl lg:text-4xl text-charcoal mb-4">
             Our Process
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ export default function ProcessSteps() {
                   <span className="inline-block bg-dark text-gold text-xs font-bold px-2.5 py-1 rounded-full mb-3">
                     Step {step.step}
                   </span>
-                  <h3 className="font-heading font-semibold text-lg text-charcoal mb-2">
+                  <h3 className="font-display font-semibold text-lg text-charcoal mb-2">
                     {step.title}
                   </h3>
                   <p className="text-gray-600 text-sm">{step.description}</p>

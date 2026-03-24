@@ -7,7 +7,7 @@ export default function ServiceAreas() {
     <section className="py-16 lg:py-24 bg-gray-light">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateOnScroll className="text-center mb-10">
-          <h2 className="font-heading font-bold text-3xl lg:text-4xl text-charcoal mb-4">
+          <h2 className="font-display font-bold text-3xl lg:text-4xl text-charcoal mb-4">
             Serving the Greater Toronto Area
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">

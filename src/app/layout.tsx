@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Montserrat } from 'next/font/google'
+import { Inter, Bebas_Neue } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { COMPANY } from '@/lib/constants'
@@ -11,9 +11,10 @@ const inter = Inter({
   display: 'swap',
 })
 
-const montserrat = Montserrat({
+const bebas = Bebas_Neue({
+  weight: '400',
   subsets: ['latin'],
-  variable: '--font-montserrat',
+  variable: '--font-bebas',
   display: 'swap',
 })
 
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(`https://${COMPANY.domain}`),
   icons: {
     icon: '/favicon.png',
-    apple: '/logo-icon-512.png',
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     type: 'website',
@@ -42,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
+    <html lang="en" className={`${inter.variable} ${bebas.variable}`}>
       <body className="font-body">
         <Header />
         <main className="pt-16 lg:pt-20">{children}</main>

@@ -18,19 +18,24 @@ export default function Hero() {
       />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 text-center">
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-8">
           <Image
-            src="/logo-icon.svg"
+            src="/logo-icon-512.png"
             alt="Best Technical Inc."
-            width={80}
-            height={80}
-            className="h-20 w-20"
+            width={100}
+            height={100}
+            className="h-24 w-24 lg:h-28 lg:w-28"
           />
         </div>
-        <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-gold mb-4 leading-tight">
-          {COMPANY.name}
+        <h1 className="font-display leading-none mb-4">
+          <span className="block text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gold">
+            BEST
+          </span>
+          <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-cyan mt-1">
+            TECHNICAL INC.
+          </span>
         </h1>
-        <p className="font-heading font-semibold text-xl sm:text-2xl text-white mb-3">
+        <p className="font-display text-xl sm:text-2xl text-white mb-3">
           Toronto&apos;s Most Trusted HVAC Experts
         </p>
         <p className="text-lg sm:text-xl text-gray-400 mb-4">

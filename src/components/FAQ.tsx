@@ -11,7 +11,7 @@ export default function FAQ() {
     <section className="py-16 lg:py-24 bg-gray-light">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="font-heading font-bold text-3xl lg:text-4xl text-charcoal mb-4">
+          <h2 className="font-display font-bold text-3xl lg:text-4xl text-charcoal mb-4">
             Frequently Asked Questions
           </h2>
           <p className="text-gray-600">

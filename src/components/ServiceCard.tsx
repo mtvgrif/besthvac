@@ -38,7 +38,7 @@ export default function ServiceCard({
       <div className="w-14 h-14 bg-cyan/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-gold/10 transition-colors">
         <Icon className="w-7 h-7 text-cyan group-hover:text-gold transition-colors" />
       </div>
-      <h3 className="font-heading font-semibold text-lg text-white mb-2">
+      <h3 className="font-display font-semibold text-lg text-white mb-2">
         {title}
       </h3>
       <p className="text-gray-400 text-sm mb-4 flex-grow">{description}</p>

@@ -34,7 +34,7 @@ export default function ServicesPage() {
       {/* Page Header */}
       <section className="bg-dark py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-heading font-bold text-3xl lg:text-5xl text-gold mb-4">
+          <h1 className="font-display font-bold text-3xl lg:text-5xl text-gold mb-4">
             Our Services
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
@@ -61,7 +61,7 @@ export default function ServicesPage() {
                     <div className="w-14 h-14 bg-cyan/10 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Icon className="w-7 h-7 text-cyan" />
                     </div>
-                    <h2 className="font-heading font-bold text-2xl lg:text-3xl text-charcoal">
+                    <h2 className="font-display font-bold text-2xl lg:text-3xl text-charcoal">
                       {service.title}
                     </h2>
                   </div>
@@ -76,7 +76,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="lg:col-span-2">
                       <div className="bg-dark rounded-xl p-6">
-                        <h3 className="font-heading font-semibold text-gold mb-4">
+                        <h3 className="font-display font-semibold text-gold mb-4">
                           What&apos;s Included
                         </h3>
                         <ul className="space-y-2">

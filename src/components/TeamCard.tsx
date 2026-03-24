@@ -12,7 +12,7 @@ export default function TeamCard({ name, role, bio }: TeamCardProps) {
       <div className="w-24 h-24 bg-cyan/10 rounded-full flex items-center justify-center mx-auto mb-4">
         <User className="w-10 h-10 text-cyan/60" />
       </div>
-      <h3 className="font-heading font-semibold text-lg text-white">
+      <h3 className="font-display font-semibold text-lg text-white">
         {name}
       </h3>
       <p className="text-gold font-medium text-sm mb-3">{role}</p>

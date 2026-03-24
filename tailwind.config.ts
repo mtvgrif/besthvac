@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         dark: {
-          DEFAULT: '#0A0A0A',
+          DEFAULT: '#0A1428',
           light: '#1A1A1A',
         },
         gold: {
@@ -20,14 +20,14 @@ const config: Config = {
         },
         cyan: {
           DEFAULT: '#00B4D8',
-          dark: '#0096B4',
+          dark: '#0096B7',
           light: '#33C4E0',
         },
         charcoal: '#1A1A1A',
         'gray-light': '#F5F7FA',
       },
       fontFamily: {
-        heading: ['var(--font-montserrat)', 'sans-serif'],
+        display: ['var(--font-bebas)', 'sans-serif'],
         body: ['var(--font-inter)', 'sans-serif'],
       },
     },

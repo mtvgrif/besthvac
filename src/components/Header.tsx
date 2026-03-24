@@ -35,14 +35,14 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/logo-icon.svg"
+              src="/logo-icon-256.png"
               alt="Best Technical Inc."
               width={40}
               height={40}
-              className="h-10 w-10 lg:h-10 lg:w-10"
+              className="h-9 w-9 lg:h-10 lg:w-10"
             />
-            <span className="hidden sm:inline font-heading font-bold text-lg text-white">
-              Best Technical Inc.
+            <span className="hidden sm:inline font-display text-xl tracking-wide text-white">
+              BEST TECHNICAL INC.
             </span>
           </Link>
 
